@@ -1,0 +1,40 @@
+body{
+    background-color: cadetblue;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sname {
+   
+    color: azure;
+    transform: scale(1.1);
+}
+#form {
+    background-color: #fff;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.pirveli {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.pirveli label {
+    display: block;
+    margin-bottom: 5px;
+}
+button {
+    border-radius: 12px;
+    transform: scale(1.7);
+    background-color: greenyellow;
+    border-color: transparent;
+    padding: 4px;
+    box-shadow: 0 0 5px greenyellow, 0 0 25px greenyellow;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+button:hover{
+    box-shadow: 0 0 5px greenyellow, 0 0 25px greenyellow, 0 0 50px greenyellow, 0 0 100px greenyellow, 0 0 200px greenyellow;
+    transform: scale(2);
+}
